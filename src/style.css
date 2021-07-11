@@ -1,0 +1,82 @@
+#app {
+  display : flex;
+  justify-content : center;
+  align-items: center;
+  position : absolute;
+  top: 0;
+  left: 0;
+  height : 100%;  
+  width : 100%;
+  background-color : lightgreen;
+}
+
+#clock {
+/*   background-color : purple; */
+  width : 40vw;
+  padding : 10px;
+}
+
+#set-clock {
+/*   background-color : red; */
+/*   width : 80vh; */
+  display : flex;
+/*   flex-direction : row; */
+  justify-content : space-around;
+/*   align-items: space-between; */
+  font-size : 1rem;
+}
+
+#set-clock button {
+  margin : 0 10px;
+}
+
+#set-clock #break {
+  background-color : white;
+  padding : 20px;
+  text-align : center;
+/*   margin : 0 10px; */
+}
+
+#set-clock #session {
+  background-color : pink;  
+  padding : 20px;
+  text-align : center;
+/*   margin : 0 10px; */
+}
+
+#clock-display-div {
+  width : 100%;
+  display : flex;
+  justify-content : center;
+  margin-top : 1rem;
+}
+
+#clock-display {
+  display: flex;
+  flex-direction : column; 
+  justify-content : center;
+  align-items : center;
+  height : 100px;
+  width : 15rem;
+  padding : 30px;
+  border-radius : 10%;
+  font-size: 30px;
+}
+
+#clock-display h1{
+/*   border: 1px solid red; */
+/*   position : relative; */
+  margin : 0;
+}
+
+#clock-display p {
+/*   border : 1px solid black; */
+/*   position : relative; */
+  margin : 5px;
+}
+
+#clock-display button {
+/*   background-color : Red; */
+/*   padding : 10px; */
+  margin : 0 5px;
+}
